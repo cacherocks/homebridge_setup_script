@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install -y libavahi-compat-libdnssd-dev
 [ ! -d ~/.homebridge ] && mkdir ~/.homebridge && cp config.json ~/.homebridge
 
 sudo npm i -g --unsafe-perm homebridge homebridge-config-ui-x
